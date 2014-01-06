@@ -37,11 +37,13 @@ PRODUCT_COPY_FILES += \
   vendor/htc/rider/proprietary/xbin/wireless_modem:system/xbin/wireless_modem \
   vendor/htc/rider/proprietary/bin/hdmid:system/bin/hdmid \
   vendor/htc/rider/proprietary/bin/rild:system/bin/rild \
-  vendor/htc/rider/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+  vendor/htc/rider/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
   vendor/htc/rider/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/htc/rider/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/rider/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/htc/rider/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+  vendor/htc/rider/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
+  vendor/htc/rider/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/rider/proprietary/lib/hw/gps.rider.so:system/lib/hw/gps.rider.so \
   vendor/htc/rider/proprietary/lib/hw/sensors.rider.so:system/lib/hw/sensors.rider.so \
   vendor/htc/rider/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
@@ -67,6 +69,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/rider/proprietary/lib/libv8.so:system/lib/libv8.so \
   vendor/htc/rider/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/htc/rider/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+  vendor/htc/rider/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
   vendor/htc/rider/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/rider/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/rider/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
@@ -104,6 +107,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/rider/proprietary/bin/lsc_camera:system/bin/lsc_camera \
   vendor/htc/rider/proprietary/bin/awb_camera:system/bin/awb_camera \
   vendor/htc/rider/proprietary/bin/cam_ins_spmo:system/bin/cam_ins_spmo \
+  vendor/htc/rider/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
   vendor/htc/rider/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/rider/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/rider/proprietary/lib/libloc_api-rpc.so:system/lib/libloc_api-rpc.so \
